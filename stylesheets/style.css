@@ -1,0 +1,170 @@
+.intro{
+	display: inline;
+}
+	
+@keyframes slideInFromLeft {
+  0% {
+	transform: translateX(-50%);
+  }
+  100% {
+	transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromLeft {
+  0% {
+	transform: translateX(-50%);
+  }
+  100% {
+	transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+	transform: translateX(50%);
+  }
+  100% {
+	transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromRight {
+  0% {
+	transform: translateX(50%);
+  }
+  100% {
+	transform: translateX(0);
+  }
+}
+	
+#name{
+	font-family: 'Arial Black';
+	font-size: 100px;
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 50%;
+	animation: 0.7s ease-out 0s 1 slideInFromLeft;
+	-webkit-animation: 0.7s ease-out 0s 1 slideInFromLeft;
+
+}
+
+.intro h3{
+	display: inline-block;
+	font-size: 30px;
+	margin-bottom: 10%;
+	animation: 0.7s ease-out 0s 1 slideInFromRight;
+	-webkit-animation: 0.7s ease-out 0s 1 slideInFromRight;
+}
+
+h2{
+	font-size: 2em
+}
+
+p{
+	font-size: 1.2em
+}
+
+#about{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.icon svg{
+	width: 100px
+}
+
+.center{
+	text-align: center
+}
+
+.skillList b{
+	font-size: 18px
+}
+
+ul{
+	list-style: none
+}
+
+li{
+	display: inline;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.projectsList{
+	display: flex;
+	justify-content: center;
+}
+
+.projectsList b{
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+}
+
+.projectsList p{
+	margin: 3%;
+}
+
+.project{
+	height: 500px;
+	width: 350px;
+	margin: 5%;
+	border: 1px solid;
+	border-radius: 3px;
+	position: relative;
+}
+
+.project svg{
+	width: 30px
+}
+
+.project ul{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.projectImgDungeon{
+	width: 100%;
+	height: 45%;
+	object-fit: contain;
+	display: flex;
+	background-repeat: no-repeat;
+	background-image: url('../images/dungeon.PNG');
+	background-size: contain;
+}
+
+.projectImgSC{
+	width: 100%;
+	height: 45%;
+	object-fit: contain;
+	display: flex;
+	background-repeat: no-repeat;
+	background-image: url('../images/sc.png');
+	background-size: contain;
+}
+
+.projectImgBot{
+	width: 50%;
+	height: 40%;
+	margin-top: 5%;
+	object-fit: contain;
+	display: flex;
+	background-repeat: no-repeat;
+	background-image: url('../images/bot.PNG');
+	background-size: contain;
+}
+
+h2{
+	margin-top: 5%;
+}
+
+
+
+body{
+	font-family: 'Dekko'
+}
