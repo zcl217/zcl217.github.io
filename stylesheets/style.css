@@ -113,7 +113,7 @@ li{
 	height: 500px;
 	width: 350px;
 	margin: 5%;
-	border: 1px solid;
+	border: 2px solid;
 	border-radius: 3px;
 	position: relative;
 }
@@ -126,6 +126,16 @@ li{
 	bottom: 0;
 	position: absolute;
 	width: 100%;
+}
+
+.projectImgMusic{
+	width: 100%;
+	height: 45%;
+	object-fit: contain;
+	display: flex;
+	background-repeat: no-repeat;
+	background-image: url('../images/music.png');
+	background-size: contain;
 }
 
 .projectImgDungeon{
