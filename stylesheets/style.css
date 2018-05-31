@@ -173,6 +173,11 @@ h2{
 	margin-top: 5%;
 }
 
+a.nostyle:link, a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+	display: block;
+}
 
 
 body{
