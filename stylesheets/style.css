@@ -1,9 +1,5 @@
 .intro{
-	background-color: #e3ebf7;
-	border-style: solid;
-	border-color: black;
-	border-width: 2px 0px 2px 0px;
-	margin-top: 5%;
+	display: inline;
 }
 	
 @keyframes slideInFromLeft {
@@ -47,7 +43,7 @@
 	font-size: 100px;
 	display: inline-block;
 	margin-left: 10%;
-	margin-top: 2%;
+	margin-top: 10%;
 	width: 50%;
 	animation: 0.7s ease-out 0s 1 slideInFromLeft;
 	-webkit-animation: 0.7s ease-out 0s 1 slideInFromLeft;
@@ -57,7 +53,7 @@
 .intro h3{
 	display: inline-block;
 	font-size: 30px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	animation: 0.7s ease-out 0s 1 slideInFromRight;
 	-webkit-animation: 0.7s ease-out 0s 1 slideInFromRight;
 }
@@ -70,15 +66,10 @@ p{
 	font-size: 1.2em
 }
 
-#firstBox{
-	display: flex;
-}
-
 #about{
-	width: 30%;
-	margin-left: 10%;
-	text-align: left;
-	float: left;
+	width: 60%;
+	margin: auto;
+	text-align: center;
 }
 
 .icon svg{
@@ -87,11 +78,6 @@ p{
 
 .center{
 	text-align: center
-}
-
-.skillList{
-	flex: 1;
-	margin-right: 5%;
 }
 
 .skillList b{
@@ -106,16 +92,6 @@ li{
 	display: inline;
 	margin-left: 2%;
 	margin-right: 2%;
-}
-
-#projectsSection{
-	margin: 10%;
-	border: 2px solid black;
-	background-color: #e3ebf7;
-}
-
-#projectHeader{
-	margin: 0;
 }
 
 .projectsList{
@@ -201,6 +177,10 @@ li{
 	background-size: contain;
 }
 
+h2{
+	margin-top: 5%;
+}
+
 a.nostyle:link, a.nostyle:visited {
     text-decoration: inherit;
     color: inherit;
@@ -209,14 +189,5 @@ a.nostyle:link, a.nostyle:visited {
 
 
 body{
-	font-family: 'Dekko';
-	margin: 0;
+	font-family: 'Dekko'
 }
-
-/*
-@media screen and (max-width: 600px) {
-    #about{
-		margin-left: 5%;
-	}
-}
-*/
