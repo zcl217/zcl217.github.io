@@ -44,7 +44,7 @@ class Grid extends Component{
 	}
 	
 	render(){
-		const row = 2;
+		const row = 1;
 		const col = 4;
 		
 		let grid = [];

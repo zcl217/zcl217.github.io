@@ -2,6 +2,10 @@
 	display: inline;
 }
 
+html{
+	background: silver;
+}
+
 body{
 	margin: 0;
 	font-family: 'Dekko';
@@ -79,7 +83,10 @@ https://stackoverflow.com/questions/15489203/underline-css3-transition
 #header{
 	margin-left: 5%;
 	font-size: 30px;
+	
+	/*
 	text-shadow: -0.5px -0.5px 0 #d7eee8, 0.5px -0.5px 0 #d7eee8, -0.5px 0.5px 0 #d7eee8, 0.5px 0.5px 0 #d7eee8;
+	*/
 }
 
 #projects{
@@ -95,16 +102,14 @@ https://stackoverflow.com/questions/15489203/underline-css3-transition
 	
 	width: 90%;
 	height: 70%;
-	border: 2px solid black;
 	margin: 0 auto;
-	background-color: #d7eee8;
 }
 
 #cell{
 	border: 2px solid black;
 	margin: 2px;
-	width: 10vw;
-	height: 10vw;
+	width: 15vw;
+	height: 15vw;
 	margin: 3%;
 	background-size: 100% 100%;
 }
@@ -123,40 +128,39 @@ https://stackoverflow.com/questions/15489203/underline-css3-transition
 }
 
 #overlay{
-	width: 90%;
+	width: 70%;
 	height: 70%;
-	border: 2px solid white;
 	margin: 0 auto;
 	position: absolute;
 	z-index: 3;
-	background-color: #d7eee8;
+	background-color: white;
+	top: 20%;
 }
 
 .arrow{
-	font-size: 20vw;
+	font-size: 5vw;
 	cursor: pointer;
-	height: 100%;
+	height: 30%;
+	position: absolute;
+	top: 30%
 }
 
 #left{
-	background: linear-gradient(to left, #d7eee8, #85cebb);
 	float: left;
 }
 
 #left:hover{
-	background: linear-gradient(to left, #d7eee8, #4e9281);
+	font-weight: bold;
 }
 
 #right{
-	background: linear-gradient(to right, #d7eee8, #85cebb);
 	float: right;
-	top: 0;
-	right: 0;
 	position: absolute;
+	right: 0;
 }
 
 #right:hover{
-	background: linear-gradient(to right, #d7eee8, #4e9281);
+	font-weight: bold;
 }
 
 #close{
