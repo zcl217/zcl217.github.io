@@ -147,6 +147,7 @@ https://stackoverflow.com/questions/15489203/underline-css3-transition
 
 #left{
 	float: left;
+	left: 1vw;
 }
 
 #left:hover{
@@ -156,7 +157,7 @@ https://stackoverflow.com/questions/15489203/underline-css3-transition
 #right{
 	float: right;
 	position: absolute;
-	right: 0;
+	right: 1vw;
 }
 
 #right:hover{
@@ -281,8 +282,9 @@ li{
 }
 
 .projectImgMusic{
-	width: 50%;
+	width: 70%;
 	height: 45%;
+	min-height: 200px;	
 	margin-top: 5%;
 	object-fit: contain;
 	display: flex;
@@ -292,8 +294,9 @@ li{
 }
 
 .projectImgDungeon{
-	width: 50%;
+	width: 70%;
 	height: 45%;
+	min-height: 200px;	
 	margin-top: 5%;
 	object-fit: contain;
 	display: flex;
@@ -303,8 +306,9 @@ li{
 }
 
 .projectImgSC{
-	width: 50%;
-	height: 45%;
+	width: 70%;
+	height: 40%;
+	min-height: 200px;	
 	margin-top: 5%;
 	object-fit: contain;
 	display: flex;
@@ -315,7 +319,7 @@ li{
 
 .projectImgBot{
 	width: 40%;
-	height: 205px;
+	height: 200px;
 	margin-top: 5%;
 	object-fit: contain;
 	display: flex;
