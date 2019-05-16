@@ -44,29 +44,39 @@ class Grid extends Component{
 	}
 	
 	render(){
-		const row = 1;
+		const row = 2;
 		const col = 4;
 		
 		let grid = [];
 		let projectCells = [];
-		
-		for (let index = 0; index < row*col; index++){
-			if (index < max){
+		let counter = 0;
+		for (let rowIndex = 0; rowIndex < row; rowIndex++){
+			
+			for (let colIndex = 0; colIndex < col; colIndex++){
+				
+				if (counter < max){
 					
-					let imageLink = "url(../images/" + index + ".png)";
+					let idIndex = counter;
+					let imageLink = "url(../images/" + counter + ".png)";
 					projectCells.push(<li id = "cell"
 									 style = {{backgroundImage: imageLink}}
-									 key = {index}
+									 key = {counter}
 									 onClick = 
-										 {() => this.clickedProject(index)}>
+										 {() => this.clickedProject(idIndex)}>
 									</li>);
 				}else{
+					/*
 					projectCells.push(<li id = "cell"
-									 key = {index}>
+									 key = {counter}>
 									</li>);
+					*/
 				}
+				counter++;
+			}	
+			grid.push(<ul key = {row*col+counter}>{projectCells}</ul>);
+			projectCells = [];
 		}
-		grid.push(<ul key = {row*col+1}>{projectCells}</ul>);
+		
 	
 		return(
 			<div id = "projectsContainer">
