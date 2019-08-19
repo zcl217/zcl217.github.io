@@ -2,15 +2,8 @@ import React, {Component} from 'react';
 const {projectList} = require('../constants/projectList');
 
 class Projects extends Component{
-	
-	componentWillMount(){
-	
-	}
 
 	render(){
-		
-		
-		console.log(projectList);
 		
 		projectList.reverse();
 		
@@ -74,8 +67,6 @@ function Project(props){
 					 {desc} 
 				</div>
 			</div>
-			
-			//demo or src?
 	);
 	
 }
