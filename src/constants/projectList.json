@@ -44,7 +44,7 @@
     },
     {
       "name": "Idle Game",
-      "desc": "An idle game created with Svelte",
+      "desc": "An idle game created with Svelte and Tailwind.css",
       "link": "idle-game-333.netlify.com",
       "bg": "idle.png",
       "demo": "true"
