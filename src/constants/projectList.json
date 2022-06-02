@@ -50,6 +50,13 @@
       "demo": "true"
     },
     {
+      "name": "Idle Game",
+      "desc": "A multitask game created with React and Framer Motion",
+      "link": "https://multitask333.herokuapp.com/",
+      "bg": "multitask.png",
+      "demo": "true"
+    },
+    {
       "name": "Tetris",
       "desc": "",
       "link": "",
