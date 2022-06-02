@@ -1,20 +1,6 @@
 {
   "projectList": [
     {
-      "name": "Sushi Bot",
-      "desc": "Discord bot hosted on AWS and connected to a NoSQL database",
-      "link": "https://github.com/zcl217/Sushi-Bot",
-      "bg": "bot.PNG",
-      "demo": "false"
-    },
-    {
-      "name": "SC Theme Site",
-      "desc": "Theme site hosted on heroku and connected to a mongoDB database",
-      "link": "http://protoss.herokuapp.com/overview",
-      "bg": "sc.png",
-      "demo": "true"
-    },
-    {
       "name": "Roguelike Game",
       "desc": "Dungeon crawler created with reactJS and redux",
       "link": "https://codepen.io/Zebulin/full/WZjGKB/",
@@ -26,20 +12,6 @@
       "desc": "A music visualization app created with three.js",
       "link": "http://see-music.herokuapp.com/index.html",
       "bg": "music.png",
-      "demo": "true"
-    },
-    {
-      "name": "Multiplayer Piano",
-      "desc": "A multiplayer piano app created with angular and socket.io",
-      "link": "http://multiplayer-piano-clone.herokuapp.com/",
-      "bg": "piano.png",
-      "demo": "true"
-    },
-    {
-      "name": "Memory Card Game",
-      "desc": "A memory card game created with reactJS and redux",
-      "link": "https://vocab-card-game.herokuapp.com/",
-      "bg": "card.PNG",
       "demo": "true"
     },
     {
