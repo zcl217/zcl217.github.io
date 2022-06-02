@@ -2,7 +2,7 @@
   "projectList": [
     {
       "name": "Roguelike Game",
-      "desc": "Dungeon crawler created with reactJS and redux",
+      "desc": "Dungeon crawler created with React and Redux",
       "link": "https://codepen.io/Zebulin/full/WZjGKB/",
       "bg": "dungeon.PNG",
       "demo": "true"
